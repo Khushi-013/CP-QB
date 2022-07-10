@@ -1,0 +1,18 @@
+The conditonal operator is also known as ternary operator.
+The statement are the decision-making statements which depends upon the output of the expression.
+It  is represented by two symbols, i.e. '?' and ':'.
+As conditional operator works on three operands so it is also known as the ternary operator.
+Syntax of a conditional operator
+Expression1?Expression2:Expression3;
+
+Example
+#include <stdio.h>
+int main()
+{
+int a,b,c,d;
+printf("Enter 3 numbers=");
+scanf("%d%d%d",&a,&b,&c);
+d=(a>b)?((a>c)?a:c):((b>c)?b:c);
+printf("Largest number=%d",d);
+return 0;
+}
