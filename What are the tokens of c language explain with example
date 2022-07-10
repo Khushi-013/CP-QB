@@ -1,0 +1,23 @@
+Tokens in C is the most important element to be used in creating a program in C.
+We can define the token as the smallest individual element in C.
+There are 4 types of tokens:
+1.Keywords:
+Keywords are those words whose meaning is already known to the compiler.
+Example: include, void, main etc
+2.Variables & Constants:
+Variables are those entities whose value can change throughout the program
+Constants are those entities whose value remains same throughout the program
+3.Identifiers:
+Identifiers are names given to variables or functions
+Rules of Identifiers:
+It should not be keyword
+It can contain all alphabets, all digits and special character underscore
+It should either start with alphabet or underscore
+Its maximum allowed length is 31
+It is case sensitive
+4.Operators:
+Operators are used to perform different operations
+C contains following 3 categories of operators:
+Unary Operators: It contains those operators which are used with single operand
+Binary Operators: It contains those operators which are used with two operands
+Ternary Operators: It contains those operators which are used with three operands
