@@ -1,0 +1,26 @@
+Logical Operators
+Logical Operators perform logical operations on a given expression by joininng two or more exxpressions or conditions.
+Assume A=1 and B=0
+1) && Called Logical AND operator.
+If both operands are non zero then the condition becomes true
+A&&B is false
+2) || Called Logical OR operator.
+If any one of the two operands is non-zero then the condition becomes true
+A||B is true
+3) | Called Logical NOT operator.
+It is used to reverse the logical state of its operand if a condition is true then Logical NOT operator will make it false
+Bitwise Operators
+The bitwise operators are the operators used to perform the operations on the data at the bit leval
+Assume A=60 and B=13
+1) & Binary AND Operator copies a bit to the result if it exists in both operands
+A&B=12   0000 1100
+2) | Binary OR Operator copies a bit if exists in either operand
+A|B=61   0011 1101
+3) ^ Binary XOR Operator copies thee bit if it is set in one operand but not both
+A^B=49   1100 0011
+4) << Binary Left Shift Operator
+The left operands value is moved left by the number of bits specified by the right operand.
+A<<2=240  1111 0000
+5) >> Binary Right Shift Operator
+The right operands value is moved right by the number of bits specified by the left operand.
+A>>2=15   0000 1111
