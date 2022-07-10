@@ -1,0 +1,53 @@
+1. sqrt()
+returns the square root of given number
+#include <stdio.h>
+#include <math.h>
+{
+printf("Square root of %d is %f\n",4,sqrt(4));
+return 0;
+}
+
+2.pow()
+returns the power of a given number
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+printf("Power of %d and %d is %f",2,3,pow(2,3));
+return 0;
+}
+
+3.ceil()
+rounds up the given number which is greater than or equal to given number
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+printf("Ceil of %f is %d",2.5,ceil(2.5));
+return 0;
+}
+
+4.floor()
+rounds down the given number 
+It returns the integer value which is less than or equal to given number
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+printf("Floor of %f is %d",2.5,floor(2.5));
+return 0;
+}
+
+5.fabs()
+returns the absolute value of given number
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+int a,b;
+a=1234;
+b=-344;
+printf("The absolute value of %d is %f\n",a,fabs(a));
+printf("The absolute value of %d is %f\n",b,fabs(b));
+return 0;
+}
