@@ -1,0 +1,11 @@
+String is defined as character array.
+It is an array of elements with data type as "char".
+In string, we can store all alphabets, all digits, space and special symbols.
+Example char s1[10];
+If we want to handle multiple strings or names we can create 2D string 
+Example char s1[5][10];
+strcpy() strcpy(string1,string2)    Copies string2 value into string1
+strlen() strlen(string1)            returns total number of characters in string1
+strcat() strcat(string1,string2)    Appends string2 to string1
+strrev() strrev(string1)            It reverses the value of string1
+strcmp() strcmp(string1,string2)    Returns 0 if string 1 and string 2 are the same; less than 0 if string1<string2; greater than 0 if string1>string2
