@@ -1,0 +1,8 @@
+Structure                                                         Union
+It can be created using a keyword "struct"                        It can be created using a keyword "union"
+The total memory occupied by structure variable is                The total memory occupied by union variable is same as largest memory
+ summation of memory occupied by individual structure elements    occupied by union elements
+It takes more memory as compared to union                         It takes less memory as compared to structure
+We can access individual elements simultaneously                  We cannot access individual elements simultaneously
+It is more efficient as compared to union                         It is less efficient as compared to structure
+It takes less execution time as compared to union                 It takes more execution time as compared to structure
